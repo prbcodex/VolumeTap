@@ -1,0 +1,3 @@
+Project output: Android Studio Kotlin source project.
+No APK is included because this environment does not have an Android SDK/Gradle build toolchain installed.
+Open the project in Android Studio and build the APK there.
