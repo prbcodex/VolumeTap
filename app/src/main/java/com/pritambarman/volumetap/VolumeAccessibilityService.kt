@@ -148,6 +148,10 @@ class VolumeAccessibilityService : AccessibilityService() {
         }
     }
 
+    override fun onAccessibilityEvent(event: android.view.accessibility.AccessibilityEvent?) {
+        // No screen content is inspected; hardware volume-key events are handled in onKeyEvent.
+    }
+
     override fun onInterrupt() {
     }
 
