@@ -1,4 +1,4 @@
-name: Build VolumeTap APK
+name: VolumeTap Android App
 
 on:
   workflow_dispatch:
